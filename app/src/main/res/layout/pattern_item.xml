@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/cardBackground"
+    android:elevation="4dp">
+
+    <!-- Pattern Name -->
+    <TextView
+        android:id="@+id/patternTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pattern Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/epicPrimary"
+        android:paddingBottom="6dp"/>
+
+    <!-- Subjects List -->
+    <TextView
+        android:id="@+id/subjectList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subjects"
+        android:textSize="16sp"
+        android:textColor="@color/textSecondary"
+        android:paddingTop="4dp"/>
+</LinearLayout>

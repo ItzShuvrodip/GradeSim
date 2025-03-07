@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GradeSim"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/epicPrimary"
+        android:paddingBottom="12dp"/>
+
+    <!-- Pattern Name Input -->
+    <EditText
+        android:id="@+id/patternNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pattern Name"
+        android:background="@color/cardBackground"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="#A9A9A9"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- RecyclerView for Subjects -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPatterns"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/cardBackground"
+        android:padding="8dp"
+        android:elevation="4dp"/>
+
+    <!-- Button to Add Subjects -->
+    <TextView
+        android:id="@+id/totalCreditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0.0"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/epicPrimary"
+        android:textStyle="bold"
+        android:paddingTop="12dp"/>
+    <Button
+        android:id="@+id/addSubjectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Another Subject"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/accentColor"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:elevation="6dp"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/savePatternButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Pattern"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/secondaryAccent"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:elevation="6dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

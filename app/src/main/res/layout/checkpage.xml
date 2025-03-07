@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Pattern Name Title -->
+    <TextView
+        android:id="@+id/patternTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pattern Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/epicPrimary"
+        android:paddingBottom="12dp"/>
+
+    <!-- RecyclerView for Subjects -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/cardBackground"
+        android:padding="8dp"
+        android:elevation="4dp"/>
+
+    <!-- Calculate GPA Button -->
+    <Button
+        android:id="@+id/calculateGPAButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA"
+        android:textColor="@color/buttonText"
+        android:backgroundTint="@color/accentColor"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:elevation="6dp"
+        android:layout_marginTop="12dp"/>
+
+    <!-- GPA Result Display -->
+    <TextView
+        android:id="@+id/gpaResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPA: 0.00"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/epicPrimary"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:elevation="8dp"/>
+</LinearLayout>

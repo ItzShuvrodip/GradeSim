@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GradeSim"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/epicPrimary"
+        android:layout_gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <!-- RecyclerView for Patterns -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPatterns"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:background="@color/cardBackground"
+        android:clipToPadding="false"/>
+
+    <!-- Add New Pattern Button -->
+    <Button
+        android:id="@+id/addPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Pattern"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_add"
+        android:drawableTint="@color/white"
+        android:backgroundTint="@color/epicAccent"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+</LinearLayout>

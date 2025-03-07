@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#349D9B</color>  <!-- Your primary theme color -->
+    <color name="secondary">#036261</color>  <!-- Accent color -->
+    <color name="light_background">#BAF0EF</color>  <!-- Light background -->
+    <!-- Background gradient colors -->
+    <!-- Updated Epic Primary for Better Contrast -->
+    <color name="epicPrimary">#F4D03F</color> <!-- Strong Golden Yellow -->
+    <color name="epicAccent">#FF3D00</color> <!-- Bright Fiery Red -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#FFFFFF</color> <!-- White -->
+    <color name="textSecondary">#FCE4EC</color> <!-- Soft Pinkish White for highlights -->
+
+    <!-- Card & Button Styling -->
+    <color name="cardBackground">#1E1E1E</color> <!-- Dark Gray -->
+    <color name="buttonText">#FFFFFF</color> <!-- White for buttons -->
+    <color name="backgroundGradientStart">#121212</color> <!-- Deep Charcoal Black -->
+    <color name="backgroundGradientCenter">#1E1E1E</color> <!-- Dark Grey -->
+    <color name="backgroundGradientEnd">#252525</color> <!-- Slightly Brighter Grey -->
+
+    <!-- Primary Colors -->
+    <color name="primaryColor">#00E5FF</color> <!-- Neon Cyan -->
+    <color name="primaryDark">#00B8D4</color> <!-- Deeper Cyan -->
+
+    <!-- Accent Colors -->
+    <color name="accentColor">#FF1744</color> <!-- Intense Red -->
+    <color name="secondaryAccent">#FF3D00</color> <!-- Neon Orange-Red -->
+
+
+    <!-- Button & UI Highlights -->
+    <color name="buttonBackground">#212121</color> <!-- Dark Grey for Button -->
+    <color name="dividerColor">#2C2C2C</color> <!-- Subtle Divider Color -->
+
+    <!-- Ripple & Press Effects -->
+    <color name="rippleEffect">#00E5FF50</color> <!-- Faint Cyan Ripple -->
+
+</resources>
